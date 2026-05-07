@@ -49,7 +49,7 @@ The ReLift system consists of two primary modules:
 
 ### Communication Flow
 
-Wearable → detects critical event → sends signal → Platform → validates → warns user → deploys if not overridden
+Wearable → generates system event signal → Platform → applies safety gating → executes actuation unless overridden
 
 ---
 
