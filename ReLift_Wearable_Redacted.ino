@@ -157,7 +157,7 @@ void loop() {
     eventDetected = evaluateMotionEvent(ax, ay, az, gx, gy, gz);
 
     if (eventDetected) {
-      pTx->setValue("<EVENT_TRIGGER>");
+      pTx->setValue("<FALL_DETECTED>");
       pTx->notify();
 
       eventCounter++;
